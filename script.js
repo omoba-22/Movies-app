@@ -1,4 +1,4 @@
-const API_KEY = "cd8159635aa4cdc0ec9118b7f2d3f680"; // replace with your TMDb key
+const API_KEY = "cd8159635aa4cdc0ec9118b7f2d3f680"; 
 const API_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
 
 const movieContainer = document.getElementById("movie-container");
